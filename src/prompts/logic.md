@@ -31,3 +31,5 @@ Ensure the plugin has:
 The goal is to help UX Designers quickly set up a project’s foundation with meaningful colors, text, and documentation.
 
 Also, generate a `README` inside the codebase and an inline guide visible in Figma when the plugin runs for the first time.
+
+
