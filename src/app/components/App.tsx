@@ -1143,15 +1143,67 @@ function App() {
       {/* Logo and Header Section */}
       <div className="plugin-header">
         <div className="logo-container">
-          <svg className="plugin-logo" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect width="40" height="40" rx="8" fill="#18A0FB" />
-            <path d="M12 20C12 15.5817 15.5817 12 20 12C24.4183 12 28 15.5817 28 20C28 24.4183 24.4183 28 20 28" stroke="white" strokeWidth="2" strokeLinecap="round" />
-            <path d="M20 28C17.7909 28 16 26.2091 16 24C16 21.7909 17.7909 20 20 20C22.2091 20 24 21.7909 24 24C24 26.2091 22.2091 28 20 28Z" stroke="white" strokeWidth="2" />
-          </svg>
+          
+          <svg className="plugin-logo" width="40" height="40" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_9_5106)">
+<rect width="128" height="128" fill="#007AFF"/>
+<line y1="63.9" x2="128" y2="63.9" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line y1="39.9" x2="128" y2="39.9" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line y1="14.9" x2="128" y2="14.9" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line y1="87.9" x2="128" y2="87.9" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line y1="113.9" x2="128" y2="113.9" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line x1="63.9" y1="127.992" x2="63.9" y2="-0.0078125" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line x1="38.9" y1="127.992" x2="38.9" y2="-0.0078125" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line x1="14.9" y1="127.992" x2="14.9" y2="-0.0078125" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line x1="86.9" y1="127.992" x2="86.9" y2="-0.0078125" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<path d="M128 128L0.000112182 -6.81658e-07" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<path d="M-6.09719e-05 128L128 6.7647e-05" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<line x1="113.9" y1="127.992" x2="113.9" y2="-0.0078125" stroke="white" stroke-opacity="0.4" stroke-width="0.2"/>
+<g filter="url(#filter0_di_9_5106)">
+<circle cx="64.5" cy="64.5" r="49.5" fill="white"/>
+</g>
+<g clip-path="url(#clip1_9_5106)">
+<path opacity="0.2" d="M50.5851 85.415C50.21 85.7898 49.7015 86.0003 49.1713 86.0003C48.6411 86.0003 48.1326 85.7898 47.7576 85.415L42.5851 80.25C42.2103 79.875 41.9998 79.3665 41.9998 78.8363C41.9998 78.306 42.2103 77.7975 42.5851 77.4225L68.0001 52L76.0001 60L50.5851 85.415Z" fill="#007AFF"/>
+<path d="M86 64V76" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80 70H92" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M52 42V54" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M46 48H58" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74 78V86" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M70 82H78" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M68 52L76 60" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M77.4137 42.5853L42.5851 77.4138C41.8041 78.1949 41.8041 79.4612 42.5851 80.2422L47.7558 85.413C48.5369 86.194 49.8032 86.194 50.5843 85.413L85.4128 50.5844C86.1938 49.8034 86.1938 48.537 85.4128 47.756L80.2421 42.5853C79.461 41.8042 78.1947 41.8042 77.4137 42.5853Z" stroke="#007AFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="64" cy="64" r="63.8915" stroke="white" stroke-opacity="0.4" stroke-width="0.217094"/>
+</g>
+<defs>
+<filter id="filter0_di_9_5106" x="0" y="5" width="129" height="129" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="5"/>
+<feGaussianBlur stdDeviation="7.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_9_5106"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_9_5106" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-4"/>
+<feGaussianBlur stdDeviation="7.3"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_9_5106"/>
+</filter>
+<clipPath id="clip0_9_5106">
+<rect width="128" height="128" fill="white"/>
+</clipPath>
+<clipPath id="clip1_9_5106">
+<rect width="64" height="64" fill="white" transform="translate(32 32)"/>
+</clipPath>
+</defs>
+</svg>
+
         </div>
         <div className="header-text">
-          <h1 className="plugin-title">Design System Generator</h1>
-          <p className="plugin-description">Create consistent design systems</p>
+          <h1 className="plugin-title"><span className='styletext'>Style</span><span className='basetext'>Base</span></h1>
+          <p className="plugin-description">Style & document your design system faster.</p>
         </div>
         <div className="header-buttons">
           <button 
@@ -1166,7 +1218,7 @@ function App() {
                 <path d="M13.5 8.5L8 14L2.5 8.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 <path d="M8 2V14" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
-              <span className="button-text">Apply Styles</span>
+              <span className="button-text">Apply All Styles</span>
             </>}
           </button>
           <button 
@@ -1183,7 +1235,7 @@ function App() {
                 <path d="M5 7.5H11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                 <path d="M5 10.5H11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
-              <span className="doc-button-text">Generate Documentation</span>
+              <span className="doc-button-text">Generate Design Documentation</span>
             </>}
           </button>
         </div>
