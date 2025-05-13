@@ -1102,40 +1102,40 @@ function App() {
     );
   };
 
-  // Render active tab content
+  // Replace the LoadingSpinner component with this CSS-only version
+  const LoadingSpinner = () => (
+    <div className="loading-container fade-in">
+      <div className="loading-spinner-container">
+        <div className="loading-spinner-pulse"></div>
+        <div className="loading-spinner"></div>
+      </div>
+      <p className="loading-text pulse-animation">
+        {activeTab === 'colors' ? 'Generating beautiful colors...' :
+         activeTab === 'typography' ? 'Crafting typography styles...' :
+         activeTab === 'shadows' ? 'Creating shadow tokens...' :
+         activeTab === 'spacing' ? 'Defining spacing tokens...' :
+         'Building grid systems...'}
+      </p>
+    </div>
+  );
+
+  // Replace the renderTabContent function with this CSS-only version
   const renderTabContent = () => {
     if (isLoading) {
-      return (
-        <div className="loading-container">
-          <div className="loading-spinner-container">
-            <div className="loading-spinner-pulse"></div>
-            <div className="loading-spinner"></div>
-          </div>
-          <p className="loading-text">
-            {activeTab === 'colors' ? 'Generating beautiful colors...' :
-             activeTab === 'typography' ? 'Crafting typography styles...' :
-             activeTab === 'shadows' ? 'Creating shadow tokens...' :
-             activeTab === 'spacing' ? 'Defining spacing tokens...' :
-             'Building grid systems...'}
-          </p>
-        </div>
-      );
+      return <LoadingSpinner />;
     }
     
-    switch (activeTab) {
-      case 'colors':
-        return renderColorPalettes();
-      case 'typography':
-        return renderTextStyles();
-      case 'shadows':
-        return renderShadows();
-      case 'spacing':
-        return renderSpacing();
-      case 'grids':
-        return renderGrids();
-      default:
-        return renderColorPalettes();
-    }
+    return (
+      <div className="tab-content-wrapper">
+        <div key={activeTab} className="tab-content slide-in">
+          {activeTab === 'colors' && renderColorPalettes()}
+          {activeTab === 'typography' && renderTextStyles()}
+          {activeTab === 'shadows' && renderShadows()}
+          {activeTab === 'spacing' && renderSpacing()}
+          {activeTab === 'grids' && renderGrids()}
+        </div>
+      </div>
+    );
   };
 
   return (

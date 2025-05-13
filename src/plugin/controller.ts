@@ -447,14 +447,14 @@ function applyStyles(customColors, shadows, spacingTokens, gridTokens, sizingTok
               style: fontStyle 
             };
           }
-        } catch (error) {
+  } catch (error) {
           console.error('Error creating text style:', error);
         }
       });
     }
     
     // Notify UI that styles were applied
-    figma.ui.postMessage({
+    figma.ui.postMessage({ 
       type: 'styles-applied',
       message: 'Styles applied successfully!'
     });
