@@ -567,10 +567,10 @@ function createDocumentation(customColors, shadows, spacingTokens, gridTokens, t
       .then(() => figma.loadFontAsync({ family: "Inter", style: "Medium" }))
       .then(() => figma.loadFontAsync({ family: "Inter", style: "Bold" }))
       .then(() => {
-        // Create a new page for documentation
-        const documentationPage = figma.createPage();
-        documentationPage.name = "Design System Documentation";
-        figma.currentPage = documentationPage;
+        // // Create a new page for documentation
+        // const documentationPage = figma.createPage();
+        // documentationPage.name = "Design System Documentation";
+        // figma.currentPage = documentationPage;
         
         // Create a frame to hold all documentation
         const mainFrame = figma.createFrame();
