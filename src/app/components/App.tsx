@@ -1235,7 +1235,7 @@ function App() {
                 <path d="M5 7.5H11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
                 <path d="M5 10.5H11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
               </svg>
-              <span className="doc-button-text">Generate Design Documentation</span>
+              <span className="doc-button-text">Generate Styles Documentation</span>
             </>}
           </button>
         </div>

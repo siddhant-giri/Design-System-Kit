@@ -217,12 +217,14 @@ h4 {
 }
 
 .color-input-group {
+  /* margin-top: 20px; */
   margin-bottom: 0;
 }
 
 .color-input-group label {
   display: block;
   font-size: 14px;
+  margin-top: 20px;
   margin-bottom: 8px;
   font-weight: 500;
   color: #333;
@@ -1110,7 +1112,7 @@ h4 {
   justify-content: center;
   gap: 6px;
   padding: 8px 12px;
-  background-color: #007AFF;
+  background-color: #000b16;
   border: none;
   border-radius: 6px;
   color: white;
@@ -1123,11 +1125,11 @@ h4 {
 }
 
 .doc-button:hover {
-  background-color: #016bdd;
+  background-color: #2d2d2d;
 }
 
 .doc-button:active {
-  background-color: #007AFF;
+  background-color: #00162d;
 }
 
 .doc-button:disabled {
